@@ -84,8 +84,35 @@
 #  elif num1<num2:
 #    print("max - ",num2)
 #    print("min - ",num1)
-    
 
+#23/06/2025
+    
+# n1=int(input("enter - "))
+# n2=int(input("enter - "))
+
+# if n1>n2:
+#     temp = n1
+#     n1=n2
+#     n2=temp
+# i=n1
+# while i<=n2:
+#     print(i, end =" ")
+#     i+=1
+
+# money = (int(input("enter miney: ")))
+# ice = (int(input("enter price: ")))
+
+number = 0
+while number < 300:
+    number += 1
+    if number % 3 != 0:
+        continue
+    elif number % 5 != 0:
+        print(number, "divides by 3")
+    elif number % 7 != 0:
+        print(number, "divides by 3 and 5")
+    else:
+        print(number, "divides by 3 and 5 and 7")
 
 
 

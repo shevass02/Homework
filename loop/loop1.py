@@ -19,4 +19,34 @@
 # for i in range(1,n+1):
 #     print(i)
  
-    
+
+# n = int(input("Enter number: "))
+# sum=0
+# for i in range(n):
+#     sum+=i
+# print(sum) 
+# print (sum/n)
+
+# n= int(input("enter number"))
+# min=n
+# max=n
+# for i in range(5):
+#     if n>max:
+#         max=n
+#     if n<max:
+#         min=n
+#     print (min, max)
+   
+
+# for i in range(1, 6):
+#     print("*" * i)
+
+# rows = 10
+# for i in range(1,rows+1):
+#     for j in range(i):
+#         print('*', end=' ')
+#     print()
+
+
+
+
