@@ -102,17 +102,88 @@
 # money = (int(input("enter miney: ")))
 # ice = (int(input("enter price: ")))
 
-number = 0
-while number < 300:
-    number += 1
-    if number % 3 != 0:
-        continue
-    elif number % 5 != 0:
-        print(number, "divides by 3")
-    elif number % 7 != 0:
-        print(number, "divides by 3 and 5")
-    else:
-        print(number, "divides by 3 and 5 and 7")
+# number = 0
+# while number < 300:
+#     number += 1
+#     if number % 3 != 0:
+#         continue
+#     elif number % 5 != 0:
+#         print(number, "divides by 3")
+#     elif number % 7 != 0:
+#         print(number, "divides by 3 and 5")
+#     else:
+#         print(number, "divides by 3 and 5 and 7")
+
+# start = 2
+# end = 100
+
+# for i in range(start, end+1):
+#     k = 0
+#     for j in range(i,1,-1):
+#         if i%j==0:
+#             k+=1
+#     if k==1:
+#        print(i, end=" ")
+
+# size = int(input("Enter size - "))
+# i = 0
+# while i<size:
+#     j = 0
+#     while j<size:
+#         if i==j:
+#            print('1', end='')
+#         else:
+#            print('0', end='') 
+#         j+=1
+#     print()
+#     i+=1
+
+
+# for i in range(2,10):
+#     for j in range(2,10):
+#         print(f"{i}*{j}={i*j}")
+
+#     print()        
+
+
+# for c in range(5):
+#     a = 2
+#     b = 1
+#     for f in range(5):
+#         if c%2==0:
+#             print(a, end='')
+#             a+=2
+#         else:
+#             print(b, end='')
+#             b+=2
+#     print()
+
+
+# for c in range(0,10):
+#     a = 2
+#     b = 1
+#     for f in range(0,10):
+#         if c%2==0:
+#             print(a**2, end=' ')
+#             a+=2
+#         else:
+#             print(-b**2, end=' ')
+#             b+=2
+#     print()
+
+
+  
+
+
+    
+
+
+      
+        
+        
+        
+        
+    
 
 
 
